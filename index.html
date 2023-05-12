@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="src\style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.15/lodash.min.js"></script> <!-- Installazione di Lodash come per Axios -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script> <!-- Inserimento di Axios per il lavoro di codice in maniera più facilità -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> <!-- Installazione di Bootstrap per il Design -->
+    
+    <title>Hacker News</title>
+
+</head>
+
+<body class="bg-dark">
+    <div class="hacker-news">
+        <h1 class="naming">HACKER NEWS</h1>
+        <h2 class="last-news">LAST NEWS</h2>
+    </div>
+    <div class="card bg-dark border-warning rounded">
+        <div class="news-available"></div>
+        <div class="card-body">
+
+    <div class="box-load">
+        <button id="load-button" class= "btn btn-outline-warning">LOAD MORE...</button>
+    </div>
+    <script type="module" src="src\news.js"></script>
+</body>
+<div class="card-footer border-warning mb-3">
+    Made by <em>&copy;</em>Cristiano Coladarce for Start2Impact
+  </div>
+</html>

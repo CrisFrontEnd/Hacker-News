@@ -1,0 +1,83 @@
+html,body {
+  height: 100%;
+}
+html{
+  display: table;
+  margin: auto;
+}
+body {
+  font-family: Arial, sans-serif;
+  display: table-cell;
+  background-color: black;
+}
+
+header {
+  padding: 10px;
+}
+
+h1 {
+  padding-left: 30%;
+  font-size: 24px;
+  position: relative;
+  color: white;
+}
+
+.hacker-news h1 {
+  overflow: hidden; 
+  border-right: .15em solid orange; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+.last-news{
+  margin-top: 30px;
+  color: orange;
+}
+.news-available{
+  margin-top: 30px;
+  color: whites;
+}
+.news-available .news {
+  margin-bottom: 20px;
+}
+
+.news-available h3 {
+  margin: 0;
+  font-size: 20px;
+}
+.news-available :link{
+  color: white;
+}
+.news-available :visited{
+  color: white;
+}
+.news-available h3 a {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: #000;
+}
+
+.news-available p {
+  margin: 5px 0;
+  color: rgb(231, 134, 22);
+  font-weight: bold;
+}
+.card-footer{
+  margin-top: 10%;
+  color: white;
+}
